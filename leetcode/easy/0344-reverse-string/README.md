@@ -35,20 +35,18 @@ Output: ["h","a","n","n","a","H"]
 
 ## Solution
 
-**Language:** Python  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 23.4 MB (beats 46.01%)  
-**Submitted:** 2026-09-07T08:50:27.950Z  
+**Language:** C++  
+**Runtime:** 0 ms  
+**Memory:** 8.1 MB  
+**Submitted:** 2026-09-07T08:51:22.719Z  
 
-```py
-class Solution:
-    def reverseString(self, s: List[str]) -> None:
-        """
-        Do not return anything, modify s in-place instead.
-        """
-        s.reverse()
-        
-        
+```cpp
+class Solution {
+public:
+    void reverseString(vector<char>& s) {
+        reverse(s.begin(),s.end());
+    }
+};
 ```
 
 ---
