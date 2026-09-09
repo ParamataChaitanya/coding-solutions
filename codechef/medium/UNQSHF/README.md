@@ -74,7 +74,7 @@ So, no solution exists.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T14:53:47.236Z  
+**Submitted:** 2026-09-09T15:01:01.231Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -87,8 +87,18 @@ int main() {
 	{
 	    int n;
 	    cin>>n;
-	    string a,;
-	    cin>>a;
+	    string a,b;
+	    cin>>a>>b;
+	    int c1 = count(a.begin(), a.end(), 'a');
+	    int c2 = count(b.begin(), b.end(), 'b');
+	    if (c1==c2) 
+	    {
+	        cout << "YES\n";
+	    } 
+	    else 
+	    {
+	        cout << "NO\n";
+	    }
 	}
 
 }
