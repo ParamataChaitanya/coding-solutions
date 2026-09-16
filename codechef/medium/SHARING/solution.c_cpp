@@ -4,6 +4,15 @@ using namespace std;
 int main() {
 	int a,b;
 	cin>>a>>b;
-	
+	int dif=a-b;
+	if(dif%2!=0)
+	{
+	    cout<<-1;
+	}
+	else
+	{
+	    int k=b-dif;
+	    cout<<b+k;
+	}
 
 }
