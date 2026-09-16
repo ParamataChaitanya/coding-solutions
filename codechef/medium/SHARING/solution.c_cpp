@@ -11,8 +11,7 @@ int main() {
 	}
 	else
 	{
-	    int k=b-dif;
-	    cout<<b+k;
+	    cout<<(a-b)/2;
 	}
 
 }
