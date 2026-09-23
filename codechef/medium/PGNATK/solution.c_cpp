@@ -6,7 +6,20 @@ int main() {
 	cin>>t;
 	while(t--)
 	{
-	    int 
+	    int n,k;
+	    cin>>n>>k;
+	    int a=k/2;
+	    int r=0
+	    for(int i=0;i<n;i++)
+	    {
+	        r++;
+	        if(r==a)
+	        {
+	            n++;
+	            r=0;
+	        }
+	    }
+	    cout<<n<<endl;
 	}
 
 }
