@@ -76,7 +76,7 @@ $5$ is the minimum cost needed to achieve this.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:14:21.132Z  
+**Submitted:** 2026-09-23T15:13:43.139Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
