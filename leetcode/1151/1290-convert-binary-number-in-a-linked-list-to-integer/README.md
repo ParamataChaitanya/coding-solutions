@@ -40,9 +40,9 @@ Output: 0
 ## Solution
 
 **Language:** C++  
-**Runtime:** 0 ms  
-**Memory:** 8.2 MB  
-**Submitted:** 2026-09-27T05:52:42.736Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 10.6 MB (beats 72.27%)  
+**Submitted:** 2026-09-27T05:54:19.298Z  
 
 ```cpp
 /**
@@ -69,7 +69,7 @@ public:
         for(int i=count-1;i>=0;i--)
         {
             int t=head->val;
-            int ans=ans+(t*(2)^i);
+            ans=ans+(t*pow(2,i));
             head=head->next;
         }
         return ans;
