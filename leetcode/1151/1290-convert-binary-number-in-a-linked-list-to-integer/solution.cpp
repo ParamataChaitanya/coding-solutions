@@ -22,7 +22,7 @@ public:
         for(int i=count-1;i>=0;i--)
         {
             int t=head->val;
-            int ans=ans+(t*(2)^i);
+            ans=ans+(t*pow(2,i));
             head=head->next;
         }
         return ans;
