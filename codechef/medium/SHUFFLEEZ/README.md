@@ -60,7 +60,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T16:01:47.319Z  
+**Submitted:** 2026-09-30T16:02:07.329Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -72,6 +72,7 @@ int main() {
 	while(t--)
 	{
 	    int n,k;
+	    
 	}
 
 }
