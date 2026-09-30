@@ -54,7 +54,7 @@ No
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T14:42:14.636Z  
+**Submitted:** 2026-09-30T14:43:30.622Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -62,7 +62,6 @@ using namespace std;
 
 int main() {
 	
-
 }
 
 ```
