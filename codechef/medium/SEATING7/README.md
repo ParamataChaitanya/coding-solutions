@@ -56,7 +56,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T14:55:23.224Z  
+**Submitted:** 2026-09-30T15:06:48.246Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -69,7 +69,27 @@ int main() {
 	{
 	    int n,m,k;
 	    cin>>n>>m>>k;
-	    
+	    vector<int>a(n);
+	    vector<int>b(n+1,0);
+	    for(int i=0;i<m;i++)
+	    {
+	        cin>>a[i];
+	        b[a[i]]=1;
+	    }
+	    int c=0;
+	    for(int i=1;i<=n;i++)
+	    {
+	        if(!b[i])
+	        {
+	            cout<<i<<" ";
+	            c++;
+	        }
+	        if(c==k)
+	        {
+	            break;
+	        }
+	    }
+	    cout<<endl;
 	}
 
 }
