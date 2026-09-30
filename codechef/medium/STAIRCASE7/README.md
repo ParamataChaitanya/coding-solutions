@@ -58,7 +58,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:31:38.595Z  
+**Submitted:** 2026-09-30T15:28:34.177Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -73,10 +73,6 @@ int main() {
 	    cin>>n;
 	    vector<int>a(n);
 	    int c=0;
-	    for(int i=0;i<n;i++)
-	    {
-	        cin>>a[i];
-	    }
 	    for(int i=0;i<n-1;i++)
 	    {
 	        if(a[i]>=a[i+1])
@@ -84,7 +80,6 @@ int main() {
 	            c++;
 	        }
 	    }
-	    
 	    cout<<c<<endl;
 	}
 
