@@ -9,14 +9,19 @@ int main() {
 	    int n;
 	    cin>>n;
 	    vector<int>a(n);
-	    int c=0;
 	    for(int i=0;i<n;i++)
 	    {
 	        cin>>a[i];
 	    }
-	    
-	    
-	    cout<<c<<endl;
+	    unordered_map<int,int>c;
+	    int m=0;
+	    for(int i=0;i<n;i++)
+	    {
+	        int j=a[i]-i;
+	        c[j]++;
+	        m=max(m,c[j]);
+	    }
+	    cout<<n-m<<endl;
 	}
 
 }
