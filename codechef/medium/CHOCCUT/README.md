@@ -54,14 +54,28 @@ No
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T14:43:30.622Z  
+**Submitted:** 2026-09-30T14:51:40.180Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int m,n;
+	    cin>>m>>n;
+	    if((m%2==0 && n%2==1) || (n%2==0 && m%2==1) || (n%2==0 && m%2==0))
+	    {
+	        cout<<"Yes"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"No"<<endl;
+	    }
+	}
 }
 
 ```
