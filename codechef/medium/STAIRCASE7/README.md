@@ -58,7 +58,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:50:45.159Z  
+**Submitted:** 2026-09-30T15:59:30.256Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -72,14 +72,19 @@ int main() {
 	    int n;
 	    cin>>n;
 	    vector<int>a(n);
-	    int c=0;
 	    for(int i=0;i<n;i++)
 	    {
 	        cin>>a[i];
 	    }
-	    
-	    
-	    cout<<c<<endl;
+	    unordered_map<int,int>c;
+	    int m=0;
+	    for(int i=0;i<n;i++)
+	    {
+	        int j=a[i]-i;
+	        c[j]++;
+	        m=max(m,c[j]);
+	    }
+	    cout<<n-m<<endl;
 	}
 
 }
