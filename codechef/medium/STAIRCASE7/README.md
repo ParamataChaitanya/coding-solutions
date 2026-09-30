@@ -58,7 +58,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:44:16.377Z  
+**Submitted:** 2026-09-30T15:50:36.167Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -77,14 +77,7 @@ int main() {
 	    {
 	        cin>>a[i];
 	    }
-	    for(int i=n-1;i>=1;i++)
-	    {
-	        if(a[i]<=a[i-1])
-	        {
-	            a[i-1]--;
-	            c++;
-	        }
-	    }
+	    
 	    
 	    cout<<c<<endl;
 	}
