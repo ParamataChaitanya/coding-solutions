@@ -67,14 +67,14 @@ The die has $4$ faces, numbered $3, 6, 9, 12$. Since $15$ is not one of these fa
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T14:32:34.477Z  
+**Submitted:** 2026-10-07T14:32:54.483Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+	
 
 }
 
