@@ -72,17 +72,38 @@ NO
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T15:20:52.298Z  
+**Submitted:** 2026-10-07T15:26:24.999Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
-	// your code goes here
-
+    int T;
+    cin>>T;
+    while (T--) {
+        int N;
+        cin>>N;
+        string A,B;
+        cin>>A>>B;
+        int onesA=0,onesB=0;
+        for(char c:A)
+        {
+            onesA+=(c=='1');
+        }
+        for(char c:B)
+        {
+            onesB+=(c=='1');
+        }
+        if((onesA%2)==(onesB%2))
+        {
+            cout<<"YES\n";
+        }
+        else
+        {
+            cout<<"NO\n";
+        }
+    }
 }
-
 ```
 
 ---
