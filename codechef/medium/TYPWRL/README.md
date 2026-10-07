@@ -62,7 +62,7 @@ abcdefghijklmnopqrstuvwxyz
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T14:48:58.146Z  
+**Submitted:** 2026-10-07T14:49:22.134Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
