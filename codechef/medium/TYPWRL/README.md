@@ -62,44 +62,17 @@ abcdefghijklmnopqrstuvwxyz
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T15:13:47.312Z  
+**Submitted:** 2026-10-07T14:49:06.138Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
+
 int main() {
-    int t;
-    cin>>t;
-    while(t--)
-    {
-        int n,m;
-        cin>>n>>m;
-        string s,l;
-        cin>>s>>l;
-        set<char>left;
-        for (char c:l)
-        {
-            left.insert(c);
-        }
-        int ans=1,cnt=1;
-        bool prev=left.count(s[0]);
-        for (int i=1;i<n;i++)
-        {
-            bool cur=left.count(s[i]);
-            if(cur==prev)
-            {
-                cnt++;
-            }
-            else
-            {
-                cnt=1;
-            }
-            ans=max(ans,cnt);
-            prev=cur;
-        }
-        cout<<ans<<endl;
-    }
+	
+
 }
+
 ```
 
 ---
