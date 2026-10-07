@@ -62,15 +62,21 @@ abcdefghijklmnopqrstuvwxyz
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T14:50:52.148Z  
+**Submitted:** 2026-10-07T15:00:52.129Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
-	
-
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int n,m;
+	    cin>>n>>m;
+	    vector<int>a(n);
+	    for(int i)
+	}
 }
 
 ```
